@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh; /* Full viewport height */
+            background-color: #3adacc;
+        }
+        .navbar {
+            background-color: #a1e076e1;
+            color: #f2f2f2;
+            padding: 14px 20px;
+            text-align: center;
+            position: sticky; /* Makes navbar stick to the top */
+            top: 0; /* Position it at the top */
+            width: 100%;
+        }
+        .navbar a {
+            color: #e43414;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        .navbar a:hover {
+            background-color: #3adacc;
+            color: rgb(221, 221, 213);
+        }
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1; /* Fills the remaining height after navbar */
+            padding: 20px;
+            text-align: center;
+            background-color: #e2bee7; /* Optional: background color for the container */
+            width: 80%; /* Width of the container */
+            max-width: 800px; /* Maximum width for larger screens */
+            margin: 20px auto; /* Centers the container */
+            border: 2px solid #62884b;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(209, 50, 214, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">Website</a>
+    </div>
+    
+    <div class="main-container">
+        <h1>Welcome to the Home Page</h1>
+        <p>This is a basic navbar with a centered content container.</p>
+    </div>
+</body>
+</html>
